@@ -1,0 +1,1 @@
+CVM Django test project.
