@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>视觉丰富的下载页面</title>
+    <link rel="stylesheet" href="{% static 'download/style.css' %}">
+</head>
+<body>
+    <div class="header">
+        <h1>文件下载中心</h1>
+        <p>安全、快速、可靠的文件下载服务</p>
+    </div>
+
+    <div class="content">
+        <div class="card">
+            <img src="{% static 'file_icon.png' %}" alt="File Icon" class="icon">
+            <h2>项目报告.pdf</h2>
+            <p>详细的项目分析报告</p>
+            <a href="/path/to/file" class="btn" download>下载</a>
+        </div>
+        <!-- 可以添加更多的卡片 -->
+    </div>
+
+    <div class="footer">
+        <p>版权所有 © 2023 文件下载中心</p>
+    </div>
+</body>
+</html>
