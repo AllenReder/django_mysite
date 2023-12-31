@@ -1,0 +1,74 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.navbar .logo {
+    font-weight: bold;
+}
+
+.navbar .logo img {
+    width: 50px; /* or you can use percentages like 50% */
+    height: auto; /* keeps the aspect ratio intact */
+    object-fit: contain; /* Adjust this as needed */
+}
+
+.navbar .nav-links {
+    list-style: none;
+}
+
+.navbar .nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('images/background.png') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.services,
+.team {
+    text-align: center;
+    padding: 50px 10%;
+}
+
+.service-card,
+.team-member {
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 30%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

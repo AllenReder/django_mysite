@@ -33,6 +33,8 @@ ALLOWED_HOSTS = ['82.157.204.67', '127.0.0.1']
 INSTALLED_APPS = [
     'polls.apps.PollsConfig',
     'download.apps.DownloadConfig',
+    'index.apps.IndexConfig',
+    'test_functions.apps.TestFunctionsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
